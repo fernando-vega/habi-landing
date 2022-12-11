@@ -1,7 +1,7 @@
-import { UserCard } from "./sections/users/UserCard";
-import { useUsers } from "./sections/users/useUsers";
+import { UserCard } from './sections/users/UserCard'
+import { useUsers } from './sections/users/useUsers'
 
-export function App() {
+export function App() : any {
 	const users = useUsers();
 
 	return (
