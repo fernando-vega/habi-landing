@@ -1,0 +1,22 @@
+@import '../../styles/theme-variables.scss';
+
+.container-form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 20px;
+}
+.container-buttons {
+  align-items: center;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+.content-form span {
+  @include themify($themes) {
+    color: themed('textColor');
+  }
+}

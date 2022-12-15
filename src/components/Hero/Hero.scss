@@ -1,0 +1,52 @@
+@import '../../styles/config/variables.scss';
+
+.content-wrapper {
+  background: url('../../assets/images/hero.jpg') center no-repeat;
+	background-size: cover;
+	display: flex;
+	height: 100%;
+	margin: 0 auto;
+	padding: 30px;
+  position: relative;
+	z-index: 1;
+	overflow: hidden;
+	width: 100%;
+}
+
+.content-hero {
+  align-items: center;
+  background: linear-gradient(66.92deg, rgb(99, 1, 204) 35.98%, rgb(124, 1, 255) 65.3%, rgb(238, 222, 255) 118.76%);
+  border-radius: 0 16px 16px 0;
+  bottom: 30%;
+  content: "";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+  top: 30%;
+  z-index: -1;
+  @include for-tablet-landscape-up {
+    right: 60%;
+  }
+
+  @include for-desktop-up {
+    right: 50%;
+  }
+
+  &__title {
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 1rem 10rem 2rem 2rem;
+    transition: all 0.3s ease-in-out;
+    @include for-tablet-landscape-up {
+      font-size: 2rem;
+    }
+  }
+
+  &__button {
+    margin: 30px 0 15px;
+  }
+}
