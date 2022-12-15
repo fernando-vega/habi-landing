@@ -1,5 +1,5 @@
 {
-	"name": "habi-app",
+	"name": "habi-landing",
 	"version": "0.1.0",
 	"homepage": "https://fernando-vega.github.io/habi-landing/",
 	"private": true,
@@ -24,7 +24,7 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -b main -d build",
+		"deploy": "gh-pages -d build",
 		"test": "jest --watch --config=jest.config.js",
 		"eject": "react-scripts eject",
 		"cy:open": "cypress open",
