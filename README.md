@@ -75,7 +75,7 @@ Instrucciones para desplegar el proyecto en local
 
 ### Prerequisites
 
-1. Instalar Node JS [https://nodejs.org/en/](https://nodejs.org/en/) , ó
+1. Instalar Node JS [https://nodejs.org/en/](https://nodejs.org/en/)
 
 - npm
   ```sh
