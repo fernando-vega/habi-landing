@@ -1,8 +1,8 @@
-import { render, screen } from "@testing-library/react";
+import { render, screen } from '@testing-library/react';
 
-import { App } from "../src/App";
+import { App } from '../src/App';
 
-test("App component display header", () => {
+test('App component display header', () => {
 	render(<App />);
 
 	const heading = screen.getByText(/🌱⚛️ Habi React App/i);
