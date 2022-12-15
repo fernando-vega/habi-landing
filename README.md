@@ -133,9 +133,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@vega_fercho](https://twitter.com/vega_fercho) - juanfe.vega@gmail.com
+Contacto - [@vega_fercho](https://twitter.com/vega_fercho) - juanfe.vega@gmail.com
 
-Project Link: [https://fernando-vega.github.io/habi-landing/](https://fernando-vega.github.io/habi-landing/)
+Link: [https://fernando-vega.github.io/habi-landing/](https://fernando-vega.github.io/habi-landing/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
