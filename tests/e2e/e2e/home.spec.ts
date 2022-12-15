@@ -1,8 +1,6 @@
-describe("The Home Page", () => {
-	it("successfully loads", () => {
-		cy.visit("/");
-		cy.findByRole("heading", { name: /🌱⚛️ Create React App Codely template example/i }).should(
-			"exist"
-		);
+describe('The Home Page', () => {
+	it('successfully loads', () => {
+		cy.visit('/');
+		cy.findByRole('heading', { name: /🌱⚛️ Habi React App/i }).should('exist');
 	});
 });

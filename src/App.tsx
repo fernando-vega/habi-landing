@@ -1,17 +1,27 @@
-import { UserCard } from './sections/users/UserCard'
-import { useUsers } from './sections/users/useUsers'
+import { FC, useState } from 'react';
 
-export function App() : any {
-	const users = useUsers();
+import { ThemeContext } from 'context/theme-context';
+import Layout from './layout';
+import './App.scss';
+
+const App: FC = () => {
+	const isBrowserDefaulDark = () => window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+	const getDefaultTheme = (): string => {
+		const localStorageTheme = localStorage.getItem('default-theme');
+		const browserDefault = isBrowserDefaulDark() ? 'dark' : 'light';
+		return localStorageTheme || browserDefault;
+	};
+
+	const [theme, setTheme] = useState(getDefaultTheme());
 
 	return (
-		<div className="App">
-			<h3>🌱⚛️ Create React App Codely template example</h3>
-			<h2>Current users</h2>
-
-			{users.map((user) => (
-				<UserCard key={user.name} user={user} />
-			))}
-		</div>
+		<ThemeContext.Provider value={{ theme, setTheme }}>
+			<div className={`theme-${theme}`}>
+				<Layout></Layout>
+			</div>
+		</ThemeContext.Provider>
 	);
-}
+};
+
+export default App;
