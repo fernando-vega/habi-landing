@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/habi-landing/static/css/main.403e1223.css",
+    "main.js": "/habi-landing/static/js/main.8da84832.js",
+    "static/media/hero.jpg": "/habi-landing/static/media/hero.30a8778789a076178cf9.jpg",
+    "static/media/logo-icon.png": "/habi-landing/static/media/logo-icon.cc22299a8c853a36f22a.png",
+    "index.html": "/habi-landing/index.html",
+    "main.403e1223.css.map": "/habi-landing/static/css/main.403e1223.css.map",
+    "main.8da84832.js.map": "/habi-landing/static/js/main.8da84832.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.403e1223.css",
+    "static/js/main.8da84832.js"
+  ]
+}
