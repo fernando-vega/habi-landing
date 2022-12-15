@@ -18,7 +18,7 @@ const App: FC = () => {
 	return (
 		<ThemeContext.Provider value={{ theme, setTheme }}>
 			<div className={`theme-${theme}`}>
-				<Layout></Layout>
+				<Layout>{}</Layout>
 			</div>
 		</ThemeContext.Provider>
 	);
