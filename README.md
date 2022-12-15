@@ -43,7 +43,7 @@
     </li>
     <li><a href="#usage">Uso</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact">Contacto</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -57,6 +57,7 @@
 - Implemente Redux pero por falta de tiempo no termine de incluir los campos en los reducers
 - Estructure pruebas unitarias pero tembien por falta de tiempo no hice pruebas unitarias, conozco la metodología GIVE, WHEN, THEN para la mejor estructuración de pruebas, ademas actualmente uso TDD (Test Drive Development)
 - Hice uso de Husky y una configuración customizada de eslint y tsconfig para una mejor calidad del codigo
+- Cree workflows para implementar github actions para despliegues automatizados
 
 ### Me falto tiempo para poder terminar con el reto... Gracias por la oportunidad
 
