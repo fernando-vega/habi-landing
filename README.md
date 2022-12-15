@@ -1,4 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<!-- Improved compatibility of back to top link: See: https://fernando-vega.github.io/habi-landing/ -->
 
 <a name="readme-top"></a>
 
@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="">
     <img src="public/favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
@@ -20,7 +20,7 @@
   <p align="center">
     Landing segun propuesta
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">Ver demo</a>
+    <a href="https://fernando-vega.github.io/habi-landing/">Ver demo</a>
   </p>
 </div>
 
@@ -98,9 +98,6 @@ Instrucciones para desplegar el proyecto en local
    npm install
    ```
 
-   ```
-
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,7 +121,7 @@ Para revisar el proyecto en local se debe ingresar en localhost:3000
   - [ ] Chinese
   - [x] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://fernando-vega.github.io/habi-landing/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,7 +139,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@vega_fercho](https://twitter.com/vega_fercho) - juanfe.vega@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://fernando-vega.github.io/habi-landing/](https://fernando-vega.github.io/habi-landing/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,17 +158,6 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/fernando-vega-p/
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
