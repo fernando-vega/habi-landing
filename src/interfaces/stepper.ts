@@ -1,4 +1,4 @@
-interface customComponent {
+interface CustomComponent {
 	type: string;
 	errorMessage?: string;
 	validation?: string;
@@ -8,5 +8,5 @@ interface customComponent {
 
 export interface Stepper {
 	description: string;
-	component: customComponent;
+	component: CustomComponent;
 }
