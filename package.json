@@ -1,6 +1,7 @@
 {
 	"name": "habi-app",
 	"version": "0.1.0",
+	"homepage": "https://fernando-vega.github.io/habi-landing/",
 	"private": true,
 	"dependencies": {
 		"@reduxjs/toolkit": "^1.9.1",
